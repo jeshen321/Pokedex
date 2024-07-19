@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* PokemonList.css */
+
+/* Light Mode Styles */
+.light {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.light-nav {
+  background-color: #1a202c;
+  color: #ffffff;
+}
+
+.light-card {
+  background-color: #ffffff;
+  border: 1px solid #d2d6dc;
+}
+
+/* Dark Mode Styles */
+.dark {
+  background-color: #1a202c;
+  color: #ffffff;
+}
+
+.dark-nav {
+  background-color: #0e141b;
+  color: #ffffff;
+}
+
+.dark-card {
+  background-color: #2d3748;
+  border: 1px solid #4a5568;
+}
